@@ -1,3 +1,9 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+::-webkit-scrollbar{
+  width: 0;
+}
+@media (min-width: 1400px) { 
 html,
 body {
   padding: 0;
@@ -13,4 +19,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+}
+.testTinggi{
+  min-height: 120vh;
 }
